@@ -2,7 +2,7 @@ node {
     stage('SCM') {
         echo 'git clone'
         // Add build steps here
-        git 'https://github.com/spring-projects/spring-petclinic.git'
+        git 'https://github.com/AnilReddyKarna/spring-petclinic-new.git'
     }
 
     stage('Build') {
