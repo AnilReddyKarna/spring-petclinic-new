@@ -8,7 +8,7 @@ node {
     stage('Build') {
         echo 'Building..'
         // Add build steps here
-        sh 'mvn clean package'
+        sh 'mvn package'
     }
 
     stage('Test') {
