@@ -3,8 +3,8 @@ node {
     stage('SCM') {
         echo 'Cloning sprint-1 branch'
 
-        git branch: 'sprint-1',
-            url: 'https://github.com/AnilReddyKarna/spring-petclinic-new.git'
+        //git branch: 'sprint-1',
+        git url: 'https://github.com/AnilReddyKarna/spring-petclinic-new.git'
     }
 
     stage('Build') {
