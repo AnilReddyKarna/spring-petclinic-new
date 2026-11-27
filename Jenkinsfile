@@ -1,10 +1,5 @@
 node {
-    stage('SCM') {
-        echo 'git clone'
-        // Add build steps here
-        git 'https://github.com/AnilReddyKarna/spring-petclinic-new.git'
-    }
-
+    
     stage('Build') {
         echo 'Building..'
         // Add build steps here
