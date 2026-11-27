@@ -13,7 +13,7 @@ stage('SCM') {
     stage('Build') {
         echo 'Building..'
         // Add build steps here
-        sh 'mvn package'
+        sh 'cd spring-petclinic-new && mvn clean package'
     }
 
     stage('Test') {
